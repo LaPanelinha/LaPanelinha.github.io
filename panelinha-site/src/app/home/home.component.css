@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+:root {
+    --color-surface: #3d3d3d;
+    --color-on-surface: #fff;
+    --color-primary: #ff5a5f;
+
+    --primary-font: 'Pacifico', cursive;
+    --secondary-font: 'Amatic SC', cursive;
+}
+
+.toolbar{
+    background-color: black;
+    display: flex;
+}
+
+.titulo{
+    font-family: var(--primary-font);
+    color: aliceblue;
+    align-self: center;
+}

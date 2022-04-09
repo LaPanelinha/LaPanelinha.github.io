@@ -1,0 +1,41 @@
+<div>
+<div class="toolbar" role="banner">
+    <img
+    width="40"
+    alt="Panelinha Logo"
+    src="/assets/static/preview.jpg"
+  />
+  <span class="titulo">La panelinha</span>
+</div>
+
+<div>
+    <label>Mensagem fofa</label>
+    <input type="text" [(ngModel)]="mensagem"/>
+</div>
+<div>
+    <label>Numero para enviar</label>
+    <input type="text" pInputText [(ngModel)]="numero"/>
+</div>
+
+<div> 
+    <button  (click)="mandaMensagem()">XAROPINHO
+    </button>
+</div>
+
+<div>
+    <label>Url da imagem</label>
+    <input type="text" pInputText [(ngModel)]="url"/>
+</div>
+
+<div> 
+    <button  (click)="mandaImg()">MANDA
+    </button>
+</div>
+<!-- 
+<div>
+    <p-fileUpload name="arquivo[]" 
+    [multiple]="true" 
+    [customUpload]="true" 
+    (uploadHandler)="onUpload($event)"></p-fileUpload>
+</div> -->
+</div>
