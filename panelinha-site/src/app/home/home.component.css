@@ -10,6 +10,24 @@
     --secondary-font: 'Amatic SC', cursive;
 }
 
+.container-home {
+
+}
+
+.container-home{
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+}
+
+.input-box-home {
+  display: flex;
+  flex-direction: column;
+}
 .toolbar{
     background-color: black;
     display: flex;
