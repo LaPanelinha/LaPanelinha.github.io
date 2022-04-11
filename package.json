@@ -6,7 +6,8 @@
     "start": "ng serve --proxy-config proxy.conf.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng deploy --cname=panelinha.dev --base-href=https://panelinha.dev/"
   },
   "private": true,
   "dependencies": {
